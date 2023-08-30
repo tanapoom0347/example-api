@@ -1,1 +1,5 @@
-# example-api
+# example-api  
+Options -MultiViews  
+    RewriteEngine On  
+    RewriteCond %{REQUEST_FILENAME} !-f  
+    RewriteRule ^ index.html [QSA,L]  
